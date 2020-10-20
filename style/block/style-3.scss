@@ -1,1 +1,59 @@
+.block {
+	background-color: #000000;
+}
+
 //======Denis
+
+.team {
+
+	// .team__container
+
+	&__container {}
+
+	// .team__top
+
+	&__top {}
+
+	// .team__title
+
+	&__title {}
+
+	// .team__text
+
+	&__text {}
+
+	// .team__body
+
+	&__body {}
+
+	// .team__items
+
+	&__items {}
+
+	// .team__item
+
+	&__item {}
+}
+
+.item-team {
+
+	// .item-team__image
+
+	&__image {}
+
+	// .item-team__name
+
+	&__name {}
+
+	// .item-team__profession
+
+	&__profession {}
+
+	// .item-team__social
+
+	&__social {}
+
+	// .item-team__social-link
+
+	&__social-link {}
+}

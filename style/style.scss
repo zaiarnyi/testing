@@ -3,6 +3,48 @@
 
 //================Переменные=========
 $fontfamaly:"Montserrat";
+$maxWidthContainer: 1020;
+$md1: $maxWidthContainer+12;
+$md2: 991.98;
+$md3: 767.98;
+$md4: 479.98;
+
+._container {
+	max-width: $maxWidthContainer + px;
+	margin: 0 auto;
+
+	@media (max-width: $md1+px) {
+		max-width: 970px;
+	}
+
+	@media (max-width: $md2+px) {
+		max-width: 750px;
+	}
+
+	@media (max-width: $md3+px) {
+		max-width: none;
+		padding: 0 10px;
+	}
+}
+
+
+.title {
+	color: #1d1e1f;
+	font-size: 34px;
+	letter-spacing: 0.68px;
+	cursor: default;
+
+	&_white {
+		color: #fff;
+	}
+}
+
+.text {
+	color: #898888;
+	font-size: 16px;
+	letter-spacing: 0.32px;
+	cursor: default;
+}
 
 //================Обнуление стилей===
 @import "null.scss";
@@ -11,4 +53,3 @@ $fontfamaly:"Montserrat";
 @import "block/style-3.scss";
 @import "block/style-4.scss";
 @import "block/style-5.scss";
-
